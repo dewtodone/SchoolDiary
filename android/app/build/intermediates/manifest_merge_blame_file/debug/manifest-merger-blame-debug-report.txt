@@ -1,0 +1,484 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.ngsschooldairy"
+4    android:versionCode="4194335"
+5    android:versionName="1.0.32" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="32"
+9        android:targetSdkVersion="32" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:5:5-67
+12-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:5:22-64
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:6:5-65
+13-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:6:22-62
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:7:5-80
+14-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:7:22-78
+15
+16    <queries>
+16-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:5-14:15
+17        <intent>
+17-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:9-13:18
+18            <action android:name="android.media.action.IMAGE_CAPTURE" />
+18-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-73
+18-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:21-70
+19        </intent>
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- Required to access Google Play Licensing -->
+23    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
+23-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:5-73
+23-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:22-70
+24    <!--
+25         Required to keep CPU alive while downloading files
+26        (NOT to keep screen awake)
+27    -->
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:5-68
+28-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:22-65
+29    <!--
+30         Required to poll the state of the network connection
+31        and respond to changes
+32    -->
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- Required to check whether Wi-Fi is enabled -->
+33-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:5-79
+33-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:27:22-76
+34    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Create a unique permission for your app and use it so only your app can receive your OneSignal messages. -->
+34-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:5-76
+34-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:22-73
+35    <permission
+35-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:7:5-9:47
+36        android:name="com.ngsschooldairy.permission.C2D_MESSAGE"
+36-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:8:9-63
+37        android:protectionLevel="signature" />
+37-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:9:9-44
+38
+39    <uses-permission android:name="com.ngsschooldairy.permission.C2D_MESSAGE" />
+39-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:11:5-79
+39-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:11:22-76
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:17:5-82
+40-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:17:22-79
+41    <!--
+42 Required so the device vibrates on receiving a push notification.
+43         Vibration settings of the device still apply.
+44    -->
+45    <uses-permission android:name="android.permission.VIBRATE" />
+45-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:23:5-66
+45-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:23:22-63
+46    <!--
+47 Use to restore notifications the user hasn't interacted with.
+48         They could be missed notifications if the user reboots their device if this isn't in place.
+49    -->
+50    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" /> <!-- START: ShortcutBadger -->
+50-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:29:5-81
+50-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:29:22-78
+51    <!-- Samsung -->
+52    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+52-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:31:5-86
+52-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:31:22-83
+53    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
+53-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:32:5-87
+53-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:32:22-84
+54    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+54-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:33:5-81
+54-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:33:22-78
+55    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+55-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:34:5-83
+55-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:34:22-80
+56    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+56-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:35:5-88
+56-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:35:22-85
+57    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- Apex -->
+57-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:36:5-92
+57-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:36:22-89
+58    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
+58-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:37:5-84
+58-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:37:22-81
+59    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- Huawei -->
+59-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:38:5-83
+59-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:38:22-80
+60    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+60-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:39:5-91
+60-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:39:22-88
+61    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+61-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:40:5-92
+61-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:40:22-89
+62    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- ZUK -->
+62-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:41:5-93
+62-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:41:22-90
+63    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- OPPO -->
+63-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:42:5-73
+63-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:42:22-70
+64    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+64-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:43:5-82
+64-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:43:22-79
+65    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- EvMe -->
+65-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:44:5-83
+65-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:44:22-80
+66    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+66-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:45:5-88
+66-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:45:22-85
+67    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+67-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:46:5-89
+67-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:46:22-86
+68
+69    <application
+69-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:9:5-30:19
+70        android:name="com.ngsschooldairy.MainApplication"
+70-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:10:7-38
+71        android:allowBackup="false"
+71-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:15:7-34
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->[androidx.core:core:1.1.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ceb076eb75224d998da4bc704a32d472/core-1.1.0/AndroidManifest.xml:24:18-86
+73        android:debuggable="true"
+74        android:extractNativeLibs="false"
+75        android:icon="@mipmap/ic_launcher"
+75-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:12:7-41
+76        android:label="@string/app_name"
+76-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:11:7-39
+77        android:requestLegacyExternalStorage="true"
+77-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:16:7-50
+78        android:roundIcon="@mipmap/ic_launcher_round"
+78-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:14:7-52
+79        android:testOnly="true"
+80        android:theme="@style/AppTheme"
+80-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:17:7-38
+81        android:usesCleartextTraffic="true" >
+81-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:13:7-42
+82        <activity
+82-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:18:7-28:18
+83            android:name="com.ngsschooldairy.MainActivity"
+83-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:19:9-37
+84            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+84-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:21:9-79
+85            android:exported="true"
+85-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:23:9-32
+86            android:label="@string/app_name"
+86-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:20:9-41
+87            android:windowSoftInputMode="adjustResize" >
+87-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:22:9-51
+88            <intent-filter>
+88-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:24:9-27:25
+89                <action android:name="android.intent.action.MAIN" />
+89-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:25:13-65
+89-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:25:21-62
+90
+91                <category android:name="android.intent.category.LAUNCHER" />
+91-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:26:13-73
+91-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:26:23-70
+92            </intent-filter>
+93        </activity>
+94        <activity
+94-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:29:7-108
+95            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+95-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:29:17-81
+96            android:exported="true" />
+96-->/Users/apple/Desktop/NGS/Development/Git/SchoolDiary/android/app/src/main/AndroidManifest.xml:29:83-106
+97
+98        <provider
+98-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:10:9-18:20
+99            android:name="com.imagepicker.FileProvider"
+99-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:13-56
+100            android:authorities="com.ngsschooldairy.provider"
+100-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:13-60
+101            android:exported="false"
+101-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-37
+102            android:grantUriPermissions="true" >
+102-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-47
+103            <meta-data
+103-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+104                android:name="android.support.FILE_PROVIDER_PATHS"
+104-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+105                android:resource="@xml/provider_paths" />
+105-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+106        </provider>
+107
+108        <receiver
+108-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-19:20
+109            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
+109-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-70
+110            android:enabled="true"
+110-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-35
+111            android:exported="true" >
+111-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-36
+112            <intent-filter>
+112-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-18:29
+113                <action android:name="com.android.vending.INSTALL_REFERRER" />
+113-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-79
+113-->[:react-native-device-info] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-device-info/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:25-76
+114            </intent-filter>
+115        </receiver>
+116
+117        <provider
+117-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:19:9-27:20
+118            android:name="androidx.core.content.FileProvider"
+118-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:20:13-62
+119            android:authorities="com.ngsschooldairy.provider"
+119-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:21:13-60
+120            android:exported="false"
+120-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:22:13-37
+121            android:grantUriPermissions="true" >
+121-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:23:13-47
+122            <meta-data
+122-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+123                android:name="android.support.FILE_PROVIDER_PATHS"
+123-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+124                android:resource="@xml/provider_paths" />
+124-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+125        </provider>
+126
+127        <activity
+127-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:29:9-31:72
+128            android:name="com.yalantis.ucrop.UCropActivity"
+128-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:30:13-60
+129            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+129-->[:react-native-image-crop-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-crop-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:31:13-69
+130
+131        <provider
+131-->[:react-native-webview] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-20:20
+132            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+132-->[:react-native-webview] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:13-83
+133            android:authorities="com.ngsschooldairy.fileprovider"
+133-->[:react-native-webview] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:14:13-64
+134            android:exported="false"
+134-->[:react-native-webview] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-37
+135            android:grantUriPermissions="true" >
+135-->[:react-native-webview] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-webview/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:13-47
+136            <meta-data
+136-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+137                android:name="android.support.FILE_PROVIDER_PATHS"
+137-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+138                android:resource="@xml/file_provider_paths" />
+138-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+139        </provider>
+140        <provider
+140-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:36:9-44:20
+141            android:name="com.RNFetchBlob.Utils.FileProvider"
+141-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:37:13-62
+142            android:authorities="com.ngsschooldairy.provider"
+142-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:38:13-60
+143            android:exported="false"
+143-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:39:13-37
+144            android:grantUriPermissions="true" >
+144-->[:rn-fetch-blob] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/rn-fetch-blob/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:40:13-47
+145            <meta-data
+145-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:15:13-17:58
+146                android:name="android.support.FILE_PROVIDER_PATHS"
+146-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:16:17-67
+147                android:resource="@xml/provider_paths" />
+147-->[:react-native-image-picker] /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/node_modules/react-native-image-picker/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:17:17-55
+148        </provider>
+149
+150        <meta-data
+150-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/83b2528dfc8a144d77b66579c3dd8f66/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:11:9-13:43
+151            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+151-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/83b2528dfc8a144d77b66579c3dd8f66/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:12:13-84
+152            android:value="GlideModule" />
+152-->[com.github.bumptech.glide:okhttp3-integration:4.11.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/83b2528dfc8a144d77b66579c3dd8f66/jetified-okhttp3-integration-4.11.0/AndroidManifest.xml:13:13-40
+153        <meta-data
+153-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:49:9-51:51
+154            android:name="onesignal_app_id"
+154-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:50:13-44
+155            android:value="" /> <!-- Deprecated - Pulled from OneSignal dashboard. -->
+155-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:51:13-48
+156        <meta-data
+156-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:53:9-55:70
+157            android:name="onesignal_google_project_number"
+157-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:54:13-59
+158            android:value="str:REMOTE" />
+158-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:55:13-67
+159
+160        <receiver
+160-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:57:9-67:20
+161            android:name="com.onesignal.GcmBroadcastReceiver"
+161-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:58:13-62
+162            android:permission="com.google.android.c2dm.permission.SEND" >
+162-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:59:13-73
+163
+164            <!-- High priority so OneSignal payloads can be filtered from other GCM receivers if filterOtherGCMReceivers is enabled. -->
+165            <intent-filter android:priority="999" >
+165-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:62:13-66:29
+165-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:62:28-50
+166                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+166-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:63:17-81
+166-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:63:25-78
+167
+168                <category android:name="com.ngsschooldairy" />
+168-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:65:17-61
+168-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:65:27-58
+169            </intent-filter>
+170        </receiver>
+171        <receiver android:name="com.onesignal.NotificationOpenedReceiver" />
+171-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:68:9-77
+171-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:68:19-74
+172
+173        <service android:name="com.onesignal.GcmIntentService" />
+173-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:70:9-66
+173-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:70:18-63
+174        <service
+174-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:71:9-73:72
+175            android:name="com.onesignal.GcmIntentJobService"
+175-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:72:13-61
+176            android:permission="android.permission.BIND_JOB_SERVICE" />
+176-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:73:13-69
+177        <service
+177-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:74:9-76:72
+178            android:name="com.onesignal.RestoreJobService"
+178-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:75:13-59
+179            android:permission="android.permission.BIND_JOB_SERVICE" />
+179-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:76:13-69
+180        <service
+180-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:77:9-79:72
+181            android:name="com.onesignal.RestoreKickoffJobService"
+181-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:78:13-66
+182            android:permission="android.permission.BIND_JOB_SERVICE" />
+182-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:79:13-69
+183        <service
+183-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:80:9-82:43
+184            android:name="com.onesignal.SyncService"
+184-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:81:13-53
+185            android:stopWithTask="true" />
+185-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:82:13-40
+186        <service
+186-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:83:9-85:72
+187            android:name="com.onesignal.SyncJobService"
+187-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:84:13-56
+188            android:permission="android.permission.BIND_JOB_SERVICE" />
+188-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:85:13-69
+189
+190        <activity
+190-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:87:9-89:75
+191            android:name="com.onesignal.PermissionsActivity"
+191-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:88:13-61
+192            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+192-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:89:13-72
+193
+194        <service android:name="com.onesignal.NotificationRestoreService" />
+194-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:91:9-76
+194-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:91:18-73
+195
+196        <receiver android:name="com.onesignal.BootUpReceiver" >
+196-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:93:9-98:20
+196-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:93:19-62
+197            <intent-filter>
+197-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:94:13-97:29
+198                <action android:name="android.intent.action.BOOT_COMPLETED" />
+198-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:95:17-79
+198-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:95:25-76
+199                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+199-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:96:17-82
+199-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:96:25-79
+200            </intent-filter>
+201        </receiver>
+202        <receiver android:name="com.onesignal.UpgradeReceiver" >
+202-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:99:9-103:20
+202-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:99:19-63
+203            <intent-filter>
+203-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:100:13-102:29
+204                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+204-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:101:17-84
+204-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:101:25-81
+205            </intent-filter>
+206        </receiver>
+207        <!--
+208             FirebaseMessagingService performs security checks at runtime,
+209             no need for explicit permissions despite exported="true"
+210        -->
+211        <service
+211-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+212            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+212-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+213            android:exported="true" >
+213-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+214            <intent-filter android:priority="-500" >
+214-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:13-33:29
+214-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:31:28-51
+215                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+215-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:17-78
+215-->[com.google.firebase:firebase-messaging:17.3.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/ae06dffb0e3a27ee9228526d9ff44558/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:32:25-75
+216            </intent-filter>
+217        </service>
+218        <service
+218-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:29:9-35:19
+219            android:name="com.google.firebase.components.ComponentDiscoveryService"
+219-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:30:13-84
+220            android:exported="false" >
+220-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:31:13-37
+221            <meta-data
+221-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+222                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+222-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+223                android:value="com.google.firebase.components.ComponentRegistrar" />
+223-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+224        </service>
+225
+226        <receiver
+226-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+227            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+227-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+228            android:exported="true"
+228-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+229            android:permission="com.google.android.c2dm.permission.SEND" >
+229-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+230            <intent-filter>
+230-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+231                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+231-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:63:17-81
+231-->[com.onesignal:OneSignal:3.12.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/03cf8b4209f64e1106841ff99adc9155/jetified-OneSignal-3.12.4/AndroidManifest.xml:63:25-78
+232            </intent-filter>
+233        </receiver>
+234        <!--
+235             FirebaseInstanceIdService performs security checks at runtime,
+236             no need for explicit permissions despite exported="true"
+237        -->
+238        <service
+238-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+239            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+239-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+240            android:exported="true" >
+240-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+241            <intent-filter android:priority="-500" >
+241-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+241-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+242                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+242-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+242-->[com.google.firebase:firebase-iid:17.0.4] /Users/apple/.gradle/caches/transforms-2/files-2.1/9e0910c70f47c8ef5bac3caa639bf5d0/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+243            </intent-filter>
+244        </service>
+245
+246        <activity
+246-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ec080af14dd44abdbee529985ab82358/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+247            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+247-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ec080af14dd44abdbee529985ab82358/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+248            android:exported="false"
+248-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ec080af14dd44abdbee529985ab82358/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+249            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+249-->[com.google.android.gms:play-services-base:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/ec080af14dd44abdbee529985ab82358/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+250
+251        <provider
+251-->[com.google.firebase:firebase-common:16.0.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/333164ee8f94a06cbdbf9b8a51af3439/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+252            android:name="com.google.firebase.provider.FirebaseInitProvider"
+252-->[com.google.firebase:firebase-common:16.0.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/333164ee8f94a06cbdbf9b8a51af3439/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+253            android:authorities="com.ngsschooldairy.firebaseinitprovider"
+253-->[com.google.firebase:firebase-common:16.0.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/333164ee8f94a06cbdbf9b8a51af3439/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+254            android:exported="false"
+254-->[com.google.firebase:firebase-common:16.0.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/333164ee8f94a06cbdbf9b8a51af3439/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+255            android:initOrder="100" />
+255-->[com.google.firebase:firebase-common:16.0.3] /Users/apple/.gradle/caches/transforms-2/files-2.1/333164ee8f94a06cbdbf9b8a51af3439/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+256
+257        <meta-data
+257-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/96989bd8cc2831af4b88291376496401/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+258            android:name="com.google.android.gms.version"
+258-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/96989bd8cc2831af4b88291376496401/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+259            android:value="@integer/google_play_services_version" />
+259-->[com.google.android.gms:play-services-basement:17.0.0] /Users/apple/.gradle/caches/transforms-2/files-2.1/96989bd8cc2831af4b88291376496401/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+260    </application>
+261
+262</manifest>

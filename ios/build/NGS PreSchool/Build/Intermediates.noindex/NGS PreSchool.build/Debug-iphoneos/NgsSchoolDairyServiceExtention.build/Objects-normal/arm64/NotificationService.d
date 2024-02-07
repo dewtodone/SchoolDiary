@@ -1,0 +1,7 @@
+dependencies: \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/NgsSchoolDairyServiceExtention/NotificationService.m \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/OneSignal/iOS_SDK/OneSignalSDK/Framework/OneSignal.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/OneSignal/iOS_SDK/OneSignalSDK/Framework/OneSignal.framework/Headers/OneSignal.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/NgsSchoolDairyServiceExtention/NotificationService.h

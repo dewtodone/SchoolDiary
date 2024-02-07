@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1199226501/@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-1199226501/@react-native-community_async-storage.iml" group="NGSSchoolDairy/@react-native-community_async-storage" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1992845400/@react-native-community_datetimepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/1992845400/@react-native-community_datetimepicker.iml" group="NGSSchoolDairy/@react-native-community_datetimepicker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NGSSchoolDairy.iml" filepath="$PROJECT_DIR$/.idea/modules/NGSSchoolDairy.iml" group="NGSSchoolDairy" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/app.iml" group="NGSSchoolDairy/app" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1043065570/react-native-device-info.iml" filepath="$PROJECT_DIR$/.idea/modules/-1043065570/react-native-device-info.iml" group="NGSSchoolDairy/react-native-device-info" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1993190055/react-native-document-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1993190055/react-native-document-picker.iml" group="NGSSchoolDairy/react-native-document-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1914912241/react-native-fast-image.iml" filepath="$PROJECT_DIR$/.idea/modules/1914912241/react-native-fast-image.iml" group="NGSSchoolDairy/react-native-fast-image" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-897470305/react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-897470305/react-native-gesture-handler.iml" group="NGSSchoolDairy/react-native-gesture-handler" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1560111726/react-native-image-crop-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-1560111726/react-native-image-crop-picker.iml" group="NGSSchoolDairy/react-native-image-crop-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-795826489/react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/-795826489/react-native-image-picker.iml" group="NGSSchoolDairy/react-native-image-picker" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1008300327/react-native-onesignal.iml" filepath="$PROJECT_DIR$/.idea/modules/1008300327/react-native-onesignal.iml" group="NGSSchoolDairy/react-native-onesignal" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-770652643/react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-770652643/react-native-reanimated.iml" group="NGSSchoolDairy/react-native-reanimated" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1905985696/react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/-1905985696/react-native-screens.iml" group="NGSSchoolDairy/react-native-screens" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/731111357/react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/731111357/react-native-svg.iml" group="NGSSchoolDairy/react-native-svg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/829440919/react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/829440919/react-native-vector-icons.iml" group="NGSSchoolDairy/react-native-vector-icons" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1132195332/react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/1132195332/react-native-video.iml" group="NGSSchoolDairy/react-native-video" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1647924178/react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1647924178/react-native-webview.iml" group="NGSSchoolDairy/react-native-webview" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/526709088/rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/526709088/rn-fetch-blob.iml" group="NGSSchoolDairy/rn-fetch-blob" />
+    </modules>
+  </component>
+</project>

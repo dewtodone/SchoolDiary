@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>ABF0F899-40F2-410B-A052-8B60B210149F</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>ABF0F899-40F2-410B-A052-8B60B210149F.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NGS PreSchool project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NGS PreSchool</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>695994234.88535702</real>
+			<key>timeStoppedRecording</key>
+			<real>695994239.22297394</real>
+			<key>title</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>ABF0F899-40F2-410B-A052-8B60B210149F</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

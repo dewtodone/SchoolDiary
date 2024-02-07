@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>603D48D6-6703-40F2-8015-0815D56A6F15</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>603D48D6-6703-40F2-8015-0815D56A6F15.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NGS PreSchool project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NGS PreSchool</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>653975170.02541101</real>
+			<key>timeStoppedRecording</key>
+			<real>653975172.41088295</real>
+			<key>title</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>603D48D6-6703-40F2-8015-0815D56A6F15</string>
+		</dict>
+		<key>9150E708-57FA-421D-8758-08FE196628F8</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>9150E708-57FA-421D-8758-08FE196628F8.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>NGS PreSchool project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>NGS PreSchool</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>650701665.51293302</real>
+			<key>timeStoppedRecording</key>
+			<real>650701674.67796302</real>
+			<key>title</key>
+			<string>Building workspace NGS PreSchool with scheme NGS PreSchool and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>9150E708-57FA-421D-8758-08FE196628F8</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

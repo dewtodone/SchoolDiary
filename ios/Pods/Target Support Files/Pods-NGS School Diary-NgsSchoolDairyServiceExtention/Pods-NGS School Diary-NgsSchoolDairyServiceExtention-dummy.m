@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_NGS_School_Diary_NgsSchoolDairyServiceExtention : NSObject
+@end
+@implementation PodsDummy_Pods_NGS_School_Diary_NgsSchoolDairyServiceExtention
+@end

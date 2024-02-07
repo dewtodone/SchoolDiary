@@ -1,0 +1,11 @@
+dependencies: \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.m \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/Target\ Support\ Files/SDWebImage/SDWebImage-prefix.pch \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.0.sdk/usr/include/mach-o/dyld.modulemap \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/UIImage+Transform.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/SDWebImageCompat.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/NSImage+Compatibility.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/SDImageGraphics.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Core/SDGraphicsImageRenderer.h \
+  /Users/apple/Desktop/NGS/Development/Git/SchoolDiary/ios/Pods/SDWebImage/SDWebImage/Private/NSBezierPath+SDRoundedCorners.h

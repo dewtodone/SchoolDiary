@@ -1,0 +1,34 @@
+{
+  "version": 1,
+  "applicationId": "com.ngsschooldairy",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "FULL_SPLIT",
+        "splits": [
+          {
+            "filterType": "ABI",
+            "value": "x86_64"
+          }
+        ],
+        "versionCode": 4194335,
+        "versionName": "1.0.32",
+        "filterName": "x86_64",
+        "outputFile": "app-x86_64-debug.apk",
+        "fullName": "x86_64Debug",
+        "baseName": "x86_64-debug",
+        "dirName": "x86_64/"
+      },
+      "path": "x86_64/AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.ngsschooldairy",
+        "split": "",
+        "minSdkVersion": "32"
+      }
+    }
+  ]
+}
